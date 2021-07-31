@@ -7,3 +7,101 @@
 html {
   font-size: 62.5%;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 2.6rem;
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+h4,
+h5 {
+  font-size: 2.8;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: white;
+  color: #f8580e;
+  padding: 2rem 6rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Nav Section with Hero */
+.main-head {
+  background-color: #309285;
+  color: white;
+  font-size: 1.8rem;
+}
+nav {
+  display: flex;
+  /* adding the margin */
+  width: 90%;
+  margin: auto;
+  /* padding and min-height make it more responsive when changing sizes */
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  /* mobile friendly */
+  flex-wrap: wrap;
+}
+nav ul {
+  /* this separates the list elements into different containers */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  flex: 1 1 40rem;
+}
+#logo {
+  flex: 1 1 40rem;
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+}
+
+.hero {
+  /* the height will make it bigger */
+  min-height: 90vh;
+  background: linear-gradient(rgba(51, 155, 141, 0.3), transparent),
+    url("/img/landing-page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h3 {
+  padding: 3rem;
+}
+
+@media screen and (max-width: 932) {
+  html {
+    font-size: 45%;
+  }
+  nav {
+    text-align: center;
+    padding: 1rem;
+  }
+} ;
