@@ -43,6 +43,11 @@ button {
   padding: 2rem 6rem;
   font-size: 1.8rem;
   cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+button:hover {
+  background: #f8580e;
+  color: white;
 }
 
 /* Nav Section with Hero */
@@ -81,7 +86,7 @@ nav ul {
   /* the height will make it bigger */
   min-height: 90vh;
   background: linear-gradient(rgba(51, 155, 141, 0.3), transparent),
-    url("/img/landing-page.jpg");
+    url("./img/landing-page.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -96,6 +101,48 @@ nav ul {
   padding: 3rem;
 }
 
+/* LOCATIONS SECTION */
+
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgba(10, 34, 78, 0.5), transparent),
+    url("./img/new-york-page.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* text-align: center; */
+}
+.locations-head {
+  width: 90%;
+  margin: auto;
+}
+.locations-head h3 {
+  padding: 1rem 0rem;
+  color: #f8580e;
+  opacity: 0.5;
+}
+
+.cloud {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.moving-cloud-1 {
+}
+.moving-cloud-2 {
+  top: 20%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* Media Query */
 @media screen and (max-width: 932) {
   html {
     font-size: 45%;
