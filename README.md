@@ -8,11 +8,9 @@ The main purpose of this project was to sharpen my Front-End skills.
 
 ## How to view?
 
-Download VSC extension for Live Server in order to view it.
+This project is being hosted on `https://pedantic-kare-253df2.netlify.app/`
 
 ## Additional Features to be Added
 
-1. Links.
-2. Data Base using PostgreSQL.
-3. Sign up and Login pages.
-4. Email responses.
+1. Data Base using PostgreSQL.
+2. Sign up and Login pages.
